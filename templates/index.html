@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerTools - QR Code Generator</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #f8fafc;
+        }
+        main {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body class="text-gray-800">
+
+<header class="bg-indigo-700 shadow-lg">
+    <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl font-extrabold text-white sm:text-5xl lg:text-6xl tracking-tight">
+            <span class="inline-block transform -rotate-3 text-indigo-300">⚡</span> PowerTools
+        </h1>
+        <p class="mt-4 text-xl text-indigo-200">
+            Your comprehensive suite of efficient digital utilities and conversion tools.
+        </p>
+    </div>
+</header>
+
+<main class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-center mb-10 text-gray-700">Explore Our Tools</h2>
+
+    <div class="flex flex-wrap justify-center gap-6">
+        <div class="w-full sm:w-80 md:w-96 p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl 
+                    transition duration-300 transform hover:-translate-y-1 flex flex-col justify-between">
+            <div>
+                <h3 class="text-2xl font-semibold text-red-600 mb-3">QR Code Generator</h3>
+                <p class="text-gray-600 mb-6 flex-grow">
+                    Generate custom QR codes from any text or URL in seconds. Simple, fast, and reliable.
+                </p>
+            </div>
+            <a href="/qr-generator" 
+               class="w-full py-3 bg-red-500 text-white font-medium rounded-lg text-center 
+                      hover:bg-red-600 focus:outline-none focus:ring-4 focus:ring-red-500 
+                      focus:ring-opacity-50 transition duration-150 shadow-md">
+                Go to Tool
+            </a>
+        </div>
+    </div>
+</main>
+
+<footer class="bg-gray-100 mt-12 border-t border-gray-200">
+    <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 text-center">
+        <p class="text-gray-500 text-sm">
+            Built with efficiency in mind. &copy; 2025 PowerTools. All rights reserved.
+        </p>
+        <div class="mt-4 space-x-4">
+            <a href="#" class="text-gray-500 hover:text-indigo-600 text-sm">Privacy Policy</a>
+            <span class="text-gray-400">|</span>
+            <a href="#" class="text-gray-500 hover:text-indigo-600 text-sm">Terms of Service</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
